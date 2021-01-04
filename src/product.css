@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    background-color: #ffffff;
+}
+.product-detail{
+ 
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+.cart-sup{
+    border-radius: 50%;
+    font-size: 14px;
+    color: #000;
+    background-color: white;
+    border: 0.7px solid brown;
+    padding: 3px 6px;
+}

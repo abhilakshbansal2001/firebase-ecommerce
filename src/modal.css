@@ -1,0 +1,24 @@
+.modal-wrapper{
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;right: 0;bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 100%;
+    z-index: 101;
+    opacity: 0;
+    animation: opacity 0.8s ease-in-out forwards  ;
+}
+@keyframes opacity{
+    to{
+        opacity: 1;
+    }
+}

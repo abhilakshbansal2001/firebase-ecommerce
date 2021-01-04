@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+.product-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+
+}
+.product {
+  margin: 2rem;
+}
+
+.cart-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 2rem 1rem;
+  
+}
+.modal-upper{
+  display: none;
+  position: absolute;
+}
+.modal-upper.show{
+  display: block;
+}
